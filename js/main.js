@@ -526,6 +526,7 @@ function typeIn()
     {
         var quest = document.getElementById("quest");
         quest.innerHTML = "txet-tpyrced-tpyrcne/moc.kksloot";
+	var aesEncryptedMess = document.getElementById("aesEncryptedMess");
         aesEncryptedMess.innerHTML = "U2FsdGVkX1+sVRabpF9QNqTmkw/daY9OoNk/Q7x2QjfTzg0cC6Un3VFzdJ+vnPhYXjIZNv6PRIjs/MZll8pd02DyZekBJodQ6hF1VbmKBvtaiAPwtsR+WheJrh34ryw+t40moqrWR2jzFk3vfXWpcCKNvehd950Co+Ogh7IOo3Xr+uN6lLsaBP/V2FocACQinRJyAqAVDBhTX3jA06CQTXTzmwCkIbS1PAVRUMBwgamOuNNi0B9rVgWMozupRIr7LqP7vzqICnlF3C1WANMzc5FcNhVWbyrvyic4YIzYiWLW6e91+yrOVGmotGhDa48h1eV4JIV9rI2aj0mLq6lZ+njGurhoosrC/LQ9Gvmt6/27buWr2C0GDnnrK7zI6vZ9Dm+l2M56eeSucqmFZhYMoL89PzUG5uzpjqvlOKHf+n9BO+h6iiNcPKeoeILpFwR8LLYKBEKcwCfMJrfv3649xjbhVTLH9w+ZKZ7LZDmAUqtL/8xLOJ0PP+8by8wqwWvMCOpvNl8lxhYirdByLWgpkDNHUT2DC1hN21vsgLyNUZL9XqprzWqQwkOo/Jx3BAp+sxiHShPSdNQ/i46qCzZpvx87fDCRQr5wMs7V+MJNZ9M=";
     }
     else if(text == "finish")
