@@ -532,9 +532,8 @@ function typeIn()
     {
         var quest = document.getElementById("quest");
         var min = totalSec / 60;
-        min= Math.floor(min);
         var sec = totalSec % 60;
-        quest.innerHTML = "End game<br>"+min + " minutes: " + sec + " seconds";
+        quest.innerHTML = "End game<br>" + Math.floor(min) + " minutes: " + sec + " seconds";
     }
     else
     {
